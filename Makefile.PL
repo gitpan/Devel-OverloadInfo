@@ -21,9 +21,9 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Devel::OverloadInfo",
   "PREREQ_PM" => {
-    "Exporter" => 0,
+    "Exporter" => "5.57",
     "MRO::Compat" => 0,
-    "Package::Stash" => 0,
+    "Package::Stash" => "0.14",
     "Scalar::Util" => 0,
     "Sub::Identify" => 0,
     "overload" => 0,
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.88",
     "parent" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,9 +42,9 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Exporter" => 0,
+  "Exporter" => "5.57",
   "MRO::Compat" => 0,
-  "Package::Stash" => 0,
+  "Package::Stash" => "0.14",
   "Scalar::Util" => 0,
   "Sub::Identify" => 0,
   "Test::More" => "0.88",
